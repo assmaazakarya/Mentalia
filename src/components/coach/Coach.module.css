@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+.con {
+  border-radius: 10px;
+  box-shadow: 0 0.4rem 0.8rem rgba(114, 114, 114, 0.333);
+  border: 1px solid rgb(228, 228, 228);
+  padding: 20px;
+  cursor: pointer;
+
+}
+.mainConte {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 1000px;
+  position: relative;
+  left: 97px;
+  top:100px
+}
+
+.dayDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.VertCard {
+  border-radius: 10px;
+  box-shadow: 0 0.4rem 0.8rem rgba(114, 114, 114, 0.333);
+  border: 1px solid rgb(228, 228, 228);
+  margin-bottom: -50px;
+  margin-left: 280px;
+}
+
+.twoDives {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  column-gap: 100px;
+  position: relative;
+  left: 150px;
+}
+
+.Group1 {
+  border-radius: 10px;
+  box-shadow: 0 0.4rem 0.8rem rgba(114, 114, 114, 0.333);
+  border: 1px solid rgb(228, 228, 228);
+  width: 300px;
+  height: 380px;
+  border-radius: 22px;
+}
+
+.figure {
+  display: grid;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 0.4rem 0.8rem rgba(114, 114, 114, 0.333);
+  border: 1px solid rgb(228, 228, 228);
+  width: 300px;
+  height: fit-content;
+}
+.figure > * {
+  grid-area: 1/1;
+  transition: 0.4s;
+}
+.figure .figcaption {
+  display: grid;
+  align-items: end;
+  font-family: REM, sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: #0000;
+  padding: 0.75rem;
+  background: var(--c, #0009);
+  clip-path: inset(0 var(--_i, 100%) 0 0);
+  -webkit-mask: linear-gradient(#000 0 0), linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  -webkit-mask-clip: text, padding-box;
+  margin: -1px;
+}
+.figure:hover .figcaption {
+  --_i: 0%;
+}
+.figure:hover img {
+  transform: scale(1.2);
+}
+@supports not (-webkit-mask-clip: text) {
+  .figure figcaption {
+    -webkit-mask: none;
+    color: #fff;
+  }
+}
+.smiling {
+  height: 450px;
+}
+
+.text {
+  font-weight: 400;
+  color: #735bf3;
+  text-decoration: underline;
+  margin-bottom: -90px;
+  font-size: 20px;
+  margin-left: 290px;
+  padding-bottom: 10px;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 3px 7px 2px 7px;
+  width: 60px;
+  height: 30px;
+
+}
+
+.addCart {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  background-color: #735bf3;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.modal1 {
+  border: 2px solid white !important;
+  font-family: "Inter", sans-serif;
+  /* color: white; */
+}
+.head{
+  font-weight: bold;
+  margin-bottom: 35px;
+}

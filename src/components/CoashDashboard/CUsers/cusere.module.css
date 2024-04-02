@@ -1,0 +1,112 @@
+.cards{
+    display: flex;
+	/* flex-wrap: wrap; */
+	align-items: flex-start;
+	/* flex-wrap: wrap; */
+	justify-content: space-evenly;
+	gap: 2.5rem;
+	max-width: 1000px;
+	margin:15vh 20vh auto;
+   
+}
+.card{
+    border-radius: 16px;
+	box-shadow: 0 30px 30px -25px rgba(#4133B7, .25);
+
+}
+.information {
+	background-color: #f1eeff;
+	padding: 2rem;
+
+    width: 270px!important;
+    
+}
+.cont_btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.information .tag {
+	display: inline-block;
+	background-color: #ded8fa;
+	color: #6558d3;
+	font-weight: 600;
+	font-size: 1rem;
+	padding: 0.75em 1em;
+	line-height: 1;
+	border-radius: 6px;
+}
+.information .tag + * {
+	margin-top: 1rem;
+}
+.information .title {
+	font-size: 1.5rem;
+	color: #141b22;
+	line-height: 1.25;
+    margin-left: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.information .title + * {
+	margin-top: 1rem;
+}
+
+.information .button {
+	/* font: inherit; */
+	/* line-height: 1; */
+	/* background-color: #fff; */
+	/* border: 2px solid #6558d3; */
+	color: #6558d3;
+	padding: 0.5em 1em;
+	/* border-radius: 5px ; */
+	font-weight: 500;
+	display: inline;
+    /* margin-left: 30px; */
+    /* width: 60px; */
+    /* height: 60px; */
+
+}
+.userImg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+.information .button:hover,
+.information .button:focus {
+	/* background-color: #6558d3; */
+	color: #6458d3dc;;
+}
+.box{
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: 450px;
+        background-color: white;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 24;
+        padding: 40px;
+        padding-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+}
+.textField{
+    width: 90%;
+    border-radius: 50px 50px !important;
+   
+    }
+    .select{
+        width: 200px;
+        /* margin-left: -30px; */
+        margin-right: 10px;
+        margin-bottom: 50px;
+    }
+    .h3{
+        color:black;
+        font-size: 20px;
+        font-weight: 300;
+    }

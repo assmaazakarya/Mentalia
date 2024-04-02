@@ -1,0 +1,28 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+    --text-color: #000000ca;
+    --main-color: #624dcf;
+    --secoundry-color: #3ecbff;
+    --pink-color: #fd96e6;
+    --bg-color: #fff;
+    --light-text-color: #9ca7b6;
+    --main-color-hover: #725aeb;
+    --input-bg: #e9e6fb;
+    --input-bg-hover: #d7d5e8;
+    --input-text: #9e8fea;
+    --nav-bg: #ffffff00;
+    --input-shadow: #0700155a;
+  }
+  .darkk {
+    --text-color: #fff;
+    --bg-color: #190b47;
+    --input-bg: #281870;
+    --input-bg-hover: #3b228c;
+    --light-text-color: #cad4e2;
+    --input-shadow: #9058ff;
+  }
